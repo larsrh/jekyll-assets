@@ -46,7 +46,7 @@ module Jekyll
             "height" => img[1],
           }
         rescue => e
-          Logger.error e
+          # Logger.error e
         end
       end
 
